@@ -1,0 +1,75 @@
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.index-body {
+  background-image: url(/img/bg.jpg);
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+  font-size: 1.3rem;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 380px;
+  height: 300px;
+}
+.message-1,
+.message-2 {
+  font-size: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ffaa00;
+}
+input {
+  border: 2px solid #cccccc;
+  padding: 0.75rem;
+  outline: none;
+  width: 45%;
+  vertical-align: middle;
+  border-radius: 8px;
+}
+button {
+  cursor: pointer;
+  border: 2px solid #888888;
+  background: #888888;
+  border-radius: 8px;
+  padding: 0.65rem;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  font-weight: 600;
+  vertical-align: middle;
+  box-shadow: -2px 2px 2px #888888;
+}
